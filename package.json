@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
+  },
+  "name": "spcbot",
+  "version": "1.0.0",
+  "description": "This bot display the amount of Saga Passes minted",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jax#3333",
+  "license": "ISC"
+}
