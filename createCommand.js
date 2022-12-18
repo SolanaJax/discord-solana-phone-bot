@@ -34,6 +34,10 @@ const commands = [
     description: 'Replies with details of the current nft event',
   },
   {
+    name: 'availablecountries',
+    description: 'Replies with details of support countries',
+  },
+  {
     name: 'specs',
     description: 'Replies with details of the Solana Phone Specs',
   },
@@ -52,6 +56,26 @@ const commands = [
   {
     name: 'botcreator',
     description: 'Replies with bot creator',
+  },
+  {
+    name: 'whobuilt',
+    description: 'Replies with who build SAGA',
+  },
+  {
+    name: 'moresagamints',
+    description: 'Replies with if there will be more mints',
+  },
+  {
+    name: 'whichnetwork',
+    description: 'Replies with which networks that will be supported',
+  },
+  {
+    name: 'OS',
+    description: 'Replies with what operating system SAGA will use',
+  },
+  {
+    name: 'whensupported',
+    description: 'Replies with when a new country will be supported',
   },
 ];
 

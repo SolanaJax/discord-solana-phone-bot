@@ -18,8 +18,8 @@ As stated on the mint site https://sagapass.solanamobile.com/ \n
 `
 
 const wenshipping = `
-If you are a developer and have linked your github account and the team agrees you will be able to get in the dvt-1 batch which should ship late next month.\n
-Everyone else will be starting to get the phone shipped q1 2023
+If you are a developer and have linked your github account, then you are currently under review by the team and will soon know if you made it to DVT units\n
+Everyone else will be getting option to pay the $900 rest and to have the device shipped early next year (2023).
 `
 const costofphone = `
 The Solana Phone cost $1000 USDC and the $100 USDC preorder/deposit will be taken off the $1000 USDC at checkout!
@@ -41,22 +41,9 @@ When Saga is ready to begin shipping, pre-orderers with Saga Pass will be first 
 Exclusive Saga accessories and Solana Mobile Swag will be available only for holders.
 `
 
-const currentholderevent = `
-**Saga Pass Happy Hour - Breakpoint 2022**
+const currentholderevent = `There is currently not a holder event going on - Stay tunned with #announcements`
 
-Official Breakpoint Happy Hour for Saga Pass Holders
-      
-Quantity left 0/300
-      
-**Location And Date**
-Sun, Nov 6 2022, 7:00 PM - 9:00 PM
-GMT (Western European Standard Time)
-Address: Lisboa, Portugal
-      
-If you did not get to mint you can buy on secondary: https://magiceden.io/marketplace/saga_launch
-      
-**link:** https://blocklive.io/event/sagahappyhour22
-`
+const availablecountries = `**At launch Saga will support 33 countries, including US, CA, UK, AU, NZ and 27 EU countries**`
 
 const specs = `
 **Solana SAGA Phone Specs**
@@ -129,5 +116,17 @@ The Solana Phone "Saga Pass Counter" bot is created by <@307163449925042176>
 
 https://lv74wcttqdhm33b6l25xv67pkvl4yxba43af5mg34ufaygzxqgeq.arweave.net/XX_LCnOAzs3sPl67evvvVVfMXCDmwF6w2-UKDBs3gYk
 `
+
+const whobuilt = `We worked with @OSOMprivacy to build Saga `
+
+const moresagamints = `We will announce more Saga Pass mint windows in the future`
+
+const whichnetwork = `Saga will be compatible with all major networks`
+
+const OS = `Saga is powered by Android`
+
+const whensupported = `Saga will not be available in <X> country at launch, but we will look to add support for more countries in the future `
+
+
 
 module.exports = { minted, holders, lockedpreorder, wenshipping, costofphone, nftbenefits, currentholderevent, specs, features, phonedesign, phonedimensions, botcreator };
