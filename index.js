@@ -13,26 +13,30 @@ const whiteListed = ["307163449925042176", "972127555194867722", "94570721124879
 let whiteListedCheck = false
 
 const Presence = [
+  { activities: [{ name: `Bot Starting...`, type: ActivityType.Watching }], status: 'idle' },
   { activities: [{ name: `${totalMinted} Minted`, type: ActivityType.Watching }], status: 'online' }, 
   { activities: [{ name: `${totalHolders} Unique Holders`, type: ActivityType.Watching }], status: 'online' },
-  { activities: [{ name: `Bot Starting...`, type: ActivityType.Watching }], status: 'idle' }
+  { activities: [{ name: `DVT SignUps`, type: ActivityType.Watching }], status: 'online' }
 ]
 
 const { minted, holders, lockedpreorder, wenshipping, costofphone, nftbenefits, currentholderevent, specs, features, phonedesign, phonedimensions, botcreator, availablecountries, whobuilt, moresagamints, whichnetwork, whensupported, os } = require('./messages.js')
 
 client.on("ready", () =>{
-    i = 0
+    i = 1
     console.log(`Bot is live!`);
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setPresence(Presence[2]) 
+    
     setInterval(() => {
-
-        if (i === 0) {
+        if (i === 1) {
+          client.user.setPresence(Presence[i]) 
+          i++;
+        } else if (i === 2) {
           client.user.setPresence(Presence[i]) 
           i++;
         } else {
           client.user.setPresence(Presence[i]) 
-          i--;
+          i -= 2;
         }
     }, 30000);
 
