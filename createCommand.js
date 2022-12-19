@@ -70,7 +70,7 @@ const commands = [
     description: 'Replies with which networks that will be supported',
   },
   {
-    name: 'OS',
+    name: 'os',
     description: 'Replies with what operating system SAGA will use',
   },
   {
@@ -85,7 +85,7 @@ const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
   try {
     console.log('Started refreshing application (/) commands.');
 
-    await rest.put(Routes.applicationCommands(process.env.CLIENT_ID), { body: commands });
+    await rest.put(Routes.applicationCommands(process.env.APPID), { body: commands });
 
     console.log('Successfully reloaded application (/) commands.');
   } catch (error) {
