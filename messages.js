@@ -123,10 +123,10 @@ const moresagamints = `We will announce more Saga Pass mint windows in the futur
 
 const whichnetwork = `Saga will be compatible with all major networks`
 
-const OS = `Saga is powered by Android`
+const os = `Saga is powered by Android`
 
 const whensupported = `Saga will not be available in <X> country at launch, but we will look to add support for more countries in the future `
 
 
 
-module.exports = { minted, holders, lockedpreorder, wenshipping, costofphone, nftbenefits, currentholderevent, specs, features, phonedesign, phonedimensions, botcreator };
+module.exports = { minted, holders, lockedpreorder, wenshipping, costofphone, nftbenefits, currentholderevent, specs, features, phonedesign, phonedimensions, botcreator, availablecountries, whobuilt, moresagamints, whichnetwork, whensupported, os };
